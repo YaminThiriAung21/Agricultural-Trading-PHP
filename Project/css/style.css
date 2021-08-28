@@ -1,0 +1,411 @@
+body{
+  background: #F5F5F5;
+
+}
+/*
+.card{
+  background: #E5E3E1;
+
+}
+ */
+ h3{
+  font-family: 'Acme';
+ }
+
+ .nav-wrapper{
+  background: #005508;
+  padding: 4px;
+ }
+
+
+ .feature{
+   background: #E5E3E1;
+ }
+.content{
+  background: ##F5F5F5;
+
+}
+
+.page-footer{
+   background: #005508;
+}
+
+.footer-copyright{
+  background: #150D0B;
+}
+
+.nav{
+  margin-bottom: 0px;height: 80px;
+}
+
+.hero-shot{
+    background-image: url("../images/Myanmar-42A9805-Agriculture-LIFT-John-Rae.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;opacity: 0.8;
+    filter: alpha(opacity=50);
+
+}
+
+
+
+.padding-normal{
+  padding-top:24px;
+  padding-right:48px;
+  padding-bottom: 24px;
+  padding-left: 48px;
+}
+
+.padding-normal-sync{
+  padding-top:48px;
+  padding-right:48px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+}
+
+
+.header{
+  color:#000000;
+}
+.product-category{
+  height: 240px;
+}
+
+
+/**Reviews***/
+
+
+ .details{
+          font-size: 20px;
+        }
+        article, aside,  section #reviews{ display: block }
+
+.z-depth-5 {
+  box-shadow: 0 16px 24px 2px rgba(0, 55, 8, 0.14), 0 6px 30px 5px rgba(0, 55, 8, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+section #reviews {
+    padding-right: 85px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    margin-top: -20px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.comment {
+    overflow: hidden;
+    padding: 0 0 1em;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 1em;
+    margin-left: 40px;
+    *zoom: 1;
+    width: 100%;
+}
+
+.comment-img {
+    float: left;
+    margin-right: 33px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.comment-img img { display: block }
+
+.comment-body { overflow: hidden }
+
+.comment .text {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.comment .text p:last-child { margin: 0 }
+
+.comment .attribution {
+    margin: 0.5em 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Decoration */
+
+.comments, .comment { position: relative }
+
+.comments:before, .comment:before, .comment .text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 65px;
+}
+
+.comments:before {
+    width: 3px;
+    left: 105px;
+    bottom: 0px;
+    background: rgba(0,0,0,0.1);
+}
+
+.comment:before {
+    width: 9px;
+    height: 9px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+    margin: 16px 0 0 -6px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.comment:hover {
+    /*  cursor: url('../images/FB_CUR.cur');  See the result on http://lab.web-gate.fr/timeline/ */ 
+    cursor: cell; /* This line is for the cursor */
+}
+
+.comment:hover:before { background: #3b5998 }
+
+.comment .text:before {
+    top: 18px;
+    left: 78px;
+    width: 9px;
+    height: 9px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+  
+.reviews-stats{
+  color: rgb(141, 141, 141);
+    height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    word-break: break-word;
+    border: 0px none rgb(141, 141, 141);
+    font: normal normal 300 12px/18px Roboto, Arial, sans-serif;
+    outline: rgb(141, 141, 141) none 0px;
+}
+.reviewers-small{
+    background-position: 50% 50%;
+    color: rgb(141, 141, 141);
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    text-align: center;
+    top: 3px;
+    white-space: nowrap;
+    width: 16px;
+    word-break: break-word;
+    background: rgba(0, 0, 0, 0) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaUlEQVQ4y2P4//8/AyWYYXAZAAPl5eUCQLwBiP9DMYgtQIoBC5A0w/ACUgw4gMWAA3Q1IACLAQFEGwA1xACIG6DYACRGqgEOyJgoA6C2bsDifOToNMBnwAc8mmH4Az4D/hODB3FeIAcDAOCAkSuzHR61AAAAAElFTkSuQmCC) no-repeat scroll 50% 50% / auto padding-box border-box;
+    border: 0px none rgb(141, 141, 141);
+    font: normal normal 300 12px/18px Roboto, Arial, sans-serif;
+}
+.reviews-num{
+  color: rgb(141, 141, 141);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  word-break: break-word;
+  border: 0px none rgb(141, 141, 141);
+  font: normal normal 300 12px/18px Roboto, Arial, sans-serif;
+  outline: rgb(141, 141, 141) none 0px;
+}
+
+
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+
+.text-center i {
+	font-size:40px;
+	margin-top:70px;
+	margin-bottom:30px;
+	color:#fff;
+	padding:50px;
+	background:#fff;
+	border-radius:50%;
+}
+
+.text-center h6{
+	margin-top:20px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	color: #33454d;
+}
+
+
+.input-field label {color: green;}
+
+
+
+#frame {
+  height: 900px;
+  width: 750px;
+  color:  green ;
+  box-shadow: 10px 10px 50px 50px rgba(0,0,0,0.3);
+  border-radius: 25px;
+  background:
+ no-repeat center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .row{
+  	padding: 16px;
+  }
+
+
+
+.left{
+      left:1%;
+      }
+.right{right:1%;
+      }
+
+
+
+      /***--------------dialog box------------*/
+      .dialog,
+.dialog__overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.dialog {
+  position: fixed;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.dialog__overlay {
+  position: absolute;
+  z-index: 1;
+  background: rgba(55, 58, 71, 0.9);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  -webkit-backface-visibility: hidden;
+}
+
+.dialog--open .dialog__overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dialog__content {
+  width: 50%;
+  max-width: 560px;
+  min-width: 290px;
+  background: #fff;
+  padding: 4em;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  opacity: 0;
+}
+
+.dialog--open .dialog__content {
+  pointer-events: auto;
+}
+
+/* Content */
+.dialog h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 2em;
+  padding: 0 0 2em;
+  margin: 0;
+}
+
+
+
+.dialog--open .dialog__overlay {
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.dialog--close .dialog__overlay {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.dialog__content {
+  padding: 0;
+  background: transparent;
+}
+
+.dialog.dialog--open .dialog__content {
+  opacity: 1;
+}
+
+.morph-shape {
+  position: absolute;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  z-index: -1;
+}
+
+.morph-shape svg rect {
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-dasharray: 1680;
+}
+
+.dialog--open .morph-shape svg rect {
+  -webkit-animation: anim-dash 0.6s forwards;
+  animation: anim-dash 0.6s forwards;
+}
+
+.dialog-inner {
+  opacity: 0;
+  background: #fff;
+}
+
+.dialog--open .dialog-inner {
+  padding: 4em;
+  opacity: 1;
+  -webkit-transition: opacity 0.85s 0.35s;
+  transition: opacity 0.85s 0.35s;
+}
+
+.dialog.dialog--open h2 {
+  -webkit-animation: anim-elem-1 0.7s ease-out both;
+  animation: anim-elem-1 0.7s ease-out both;
+}
+
+.dialog.dialog--open button {
+  -webkit-animation: anim-elem-2 0.7s ease-out both;
+  animation: anim-elem-2 0.7s ease-out both;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    max-width:  200px;
+    min-width: 10px;
+}
